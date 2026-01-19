@@ -91,7 +91,14 @@ async def init_db():
             next_hint_ts INTEGER
         )
         """)
-
+        for sql in [
+            "ALTER TABLE state ADD COLUMN category TEXT",
+        ]:
+            try:
+                await db.execute(sql)
+            except Exception:
+                pass
+        
         await db.execute("INSERT OR IGNORE INTO config(id) VALUES (1)")
         await db.execute("INSERT OR IGNORE INTO state(id) VALUES (1)")
                 # lightweight migrations for existing DBs
@@ -258,5 +265,6 @@ async def get_state():
             "hint_level": row[8] or 0,
             "hint_total": row[9] or 0,
             "hint_answer": row[10],
-            "next_hint_ts": row[11]
+            "next_hint_ts": row[11],
+            "category": row[12]
         }

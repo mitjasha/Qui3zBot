@@ -87,6 +87,13 @@ def build_tags_kb(tags: list[str]):
     kb.adjust(3)
     return kb.as_markup()
 
+def build_categories_kb(categories: list[str]):
+    kb = InlineKeyboardBuilder()
+    for c in categories:
+        kb.button(text=c, callback_data=f"qs_cat:{c}")
+    kb.adjust(2)  # 2 кнопки в ряд, чтобы не было каши
+    return kb.as_markup()
+
 def build_rounds_kb():
     rounds = [5, 10, 15, 20, 30, 50]
     kb = InlineKeyboardBuilder()
@@ -210,7 +217,7 @@ async def post_next_question(chat_id: int, thread_id: int):
     global current_question
 
     st = await get_state()
-    tag = st["tag"] or "all"
+    category = st.get("category")
     total = st["round_total"]
     cur = st["round_current"] or 0
     session_id = st["session_id"]
@@ -228,7 +235,7 @@ async def post_next_question(chat_id: int, thread_id: int):
             await bot.send_message(chat_id, "🏁 Игра завершена", message_thread_id=thread_id)
         return
 
-    q = quiz.next_question(tag=tag)
+    q = quiz.next_question(category=category) if category else quiz.next_question(tag="all")
     current_question = q
 
     cur += 1
@@ -260,7 +267,7 @@ async def post_next_question(chat_id: int, thread_id: int):
 
     await bot.send_message(
         chat_id,
-        f"{header}\n{q['question']}\n\n📚 <b>{tag}</b> | ⏳ <b>{QUESTION_TTL_SEC}</b> сек\n"
+        f"{header}\n{q['question']}\n\n📚 <b>{category}</b> | ⏳ <b>{QUESTION_TTL_SEC}</b> сек\n"
         f"💎 Очки: <b>{MAX_POINTS}</b> без подсказок (уменьшаются с каждой подсказкой)",
         message_thread_id=thread_id
     )
@@ -366,10 +373,14 @@ async def cmd_quiz_start(message: Message):
 
     # No params -> inline menu
     if len(parts) == 1:
-        allowed = quiz.list_tags()
-        pending_setup[(message.chat.id, thread_id)] = {"tag": "all"}
-        await message.reply("Выбери <b>категорию</b>:", reply_markup=build_tags_kb(allowed))
+        categories = quiz.list_categories()
+        pending_setup[(message.chat.id, thread_id)] = {"category": categories[0] if categories else None}
+        await message.reply(
+            "Выбери <b>категорию</b> для квиза:",
+            reply_markup=build_categories_kb(categories),
+        )
         return
+
 
     # /quiz_start <tag> <rounds>
     tag = "all"
@@ -437,19 +448,40 @@ async def cb_choose_round(cb: CallbackQuery):
     rounds = max(1, min(rounds, 50))
 
     key = (cb.message.chat.id, cb.message.message_thread_id)
-    tag = pending_setup.get(key, {}).get("tag", "all")
-    allowed_set = set(["all"] + quiz.list_tags())
-    if tag not in allowed_set:
-        tag = "all"
+    category = pending_setup.get(key, {}).get("category")
+
+    if not category:
+        category = "Общие знания"  # fallback, если вдруг
 
     await cb.message.edit_text(
-        f"🎮 <b>Квиз запущен!</b>\n📚 <b>{tag}</b> | 🔢 Раундов: <b>{rounds}</b>\n"
+        f"🎮 <b>Квиз запущен!</b>\n"
+        f"📚 Категория: <b>{category}</b>\n"
+        f"🔢 Раундов: <b>{rounds}</b>\n"
         f"✍️ Отвечайте текстом. Первый правильный получает очки."
     )
+
     pending_setup.pop(key, None)
 
-    await start_quiz(cb.message.chat.id, cb.message.message_thread_id, tag, rounds)
+    # ВАЖНО: сохраняем category в state, а не tag
+    await set_state(
+        active=True,
+        current_qid=None,
+        winner_user_id=None,
+        deadline_ts=None,
+        tag=None,                 # можно оставить, но не используем
+        round_total=rounds,
+        round_current=0,
+        session_id=await create_session(cb.message.chat.id, cb.message.message_thread_id, category, rounds),
+        hint_level=0,
+        hint_total=0,
+        hint_answer=None,
+        next_hint_ts=None,
+        category=category         # <-- добавим новое поле (см. пункт 5)
+    )
+
+    await post_next_question(cb.message.chat.id, cb.message.message_thread_id)
     await cb.answer()
+
 
 @dp.callback_query(F.data == "qs_cancel")
 async def cb_cancel(cb: CallbackQuery):
@@ -549,6 +581,26 @@ async def cmd_my(message: Message):
         await message.reply("Посмотри /rating_game для очков в текущей игре или /rating для общего рейтинга")
     else:
         await message.reply("Нет активной игры. Используй /quiz_start")
+
+@dp.callback_query(F.data.startswith("qs_cat:"))
+async def cb_choose_category(cb: CallbackQuery):
+    allowed_chat_id, allowed_thread_id = await get_topic()
+    if not allowed_chat_id or not allowed_thread_id:
+        await cb.answer()
+        return
+    if not allowed_topic_from_callback(cb, allowed_chat_id, allowed_thread_id):
+        await cb.answer()
+        return
+
+    category = cb.data.split(":", 1)[1]
+    key = (cb.message.chat.id, cb.message.message_thread_id)
+    pending_setup.setdefault(key, {})["category"] = category
+
+    await cb.message.edit_text(
+        f"Категория выбрана: <b>{category}</b>\nТеперь выбери <b>количество раундов</b>:",
+        reply_markup=build_rounds_kb(),
+    )
+    await cb.answer()
 
 @dp.message(F.text)
 async def on_text_answer(message: Message):
