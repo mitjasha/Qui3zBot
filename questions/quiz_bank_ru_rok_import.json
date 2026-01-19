@@ -1,0 +1,1392 @@
+{
+    "dataset": {
+        "name": "RoK Alliance Quiz import (user paste)",
+        "generated_utc": "2026-01-19T22:43:47Z",
+        "language": "ru",
+        "categories": ["RoK"],
+        "question_count": 105
+    },
+    "questions": [
+        {
+            "id": "rok_import_00001",
+            "category": "RoK",
+            "question": "В какой армии сражалась «варяжская стража»?",
+            "answers": ["Византийская"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00002",
+            "category": "RoK",
+            "question": "Кто был королем Пруссии во время Семилетней войны?",
+            "answers": ["Фридрих ll"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00003",
+            "category": "RoK",
+            "question": "Кто был богом смерти в древнегреческой мифологии?",
+            "answers": ["Танатос"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00004",
+            "category": "RoK",
+            "question": "Кто победил в битве при Гастингсе?",
+            "answers": ["Вильгельм Завоеватель"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00005",
+            "category": "RoK",
+            "question": "На каком континенте родилась цивилизация майя?",
+            "answers": ["Америка"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00006",
+            "category": "RoK",
+            "question": "Кто был первым консулом Римской республики?",
+            "answers": ["Луций Юний Брут"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00007",
+            "category": "RoK",
+            "question": "Куда сослали Наполеона Бонапарта после его поражения при Ватерлоо?",
+            "answers": ["Остров Святой Елены"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00008",
+            "category": "RoK",
+            "question": "Какой композитор написал оперу «Женитьбу Фигаро»?",
+            "answers": ["Моцарт"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00009",
+            "category": "RoK",
+            "question": "Что из этого НЕ может ускорить помощь альянса?",
+            "answers": ["Обучение войск"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00010",
+            "category": "RoK",
+            "question": "Как часто проводится чемпионат мира по футболу?",
+            "answers": ["раз в 4 года"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00011",
+            "category": "RoK",
+            "question": "Какой тип воинов получает хороший бонус от навыка Сунь Цзы «мастер стратег»?",
+            "answers": ["Пехота"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00012",
+            "category": "RoK",
+            "question": "В формальной письменности какой страны использовались иероглифы?",
+            "answers": ["Древний Египет"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00013",
+            "category": "RoK",
+            "question": "Какой командир, как считается, воплощал собой идеал «духа бусидо»?",
+            "answers": ["Кусуноки Масасигэ"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00014",
+            "category": "RoK",
+            "question": "Какое из этих изобретений было сделано НЕ во время первой промышленной революции?",
+            "answers": ["Телефон"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00015",
+            "category": "RoK",
+            "question": "Сколько кусков обычной железной руды нужно совместить, чтобы получить кусок продвинутой «железной руды»?",
+            "answers": ["4"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00016",
+            "category": "RoK",
+            "question": "Какая из этих историй не входит в сказки братье Гримм?",
+            "answers": ["Русалочка"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00017",
+            "category": "RoK",
+            "question": "Какой музыкальный инструмент символ Ирландии?",
+            "answers": ["Арфа"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00018",
+            "category": "RoK",
+            "question": "Какие из этих усилений могут сработать в Закатном каньоне?",
+            "answers": ["Усиления от снаряжения"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00019",
+            "category": "RoK",
+            "question": "Что изучал в колледже Че Гевара?",
+            "answers": ["Медицина"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00020",
+            "category": "RoK",
+            "question": "Некоторые историки считают «День черепиц» началом Великой французской революции. В каком городе он произошел?",
+            "answers": ["Гренобль"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00021",
+            "category": "RoK",
+            "question": "В какой стране в 1847 г. была основана пивоваренная компания Carlsberg Group?",
+            "answers": ["Дания"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00022",
+            "category": "RoK",
+            "question": "Какое дерево в скандинавской мифологии выступало Мировым древом?",
+            "answers": ["Ясень"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00023",
+            "category": "RoK",
+            "question": "Что дает изучение «Математики» в академии?",
+            "answers": ["Повышается скорость исследований"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00024",
+            "category": "RoK",
+            "question": "Мировое древо по скандинавской мифологии?",
+            "answers": ["Ясень"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00025",
+            "category": "RoK",
+            "question": "Каким витамином богата брокколи?",
+            "answers": ["Витамин С"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00026",
+            "category": "RoK",
+            "question": "Какой полис победил Спарту в битве при Левктрах?",
+            "answers": ["Фивы"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00027",
+            "category": "RoK",
+            "question": "Какую школу живописи представляет Жорж Сёра?",
+            "answers": ["Пуантилизм"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00028",
+            "category": "RoK",
+            "question": "Столицей какой этнической группы Древнего Китая был Тунваньчэн?",
+            "answers": ["Хунну"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00029",
+            "category": "RoK",
+            "question": "Из какого материала Чарльз Макинтош создал первый современный дождевик?",
+            "answers": ["Резина"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00030",
+            "category": "RoK",
+            "question": "Падание какого показателя говорит о приближении к состоянию вакуума?",
+            "answers": ["Давление воздуха"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00031",
+            "category": "RoK",
+            "question": "Кто из этих европейских мореходов первым приплыл в Бразилию?",
+            "answers": ["Педру Алвариш Кабрал"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00032",
+            "category": "RoK",
+            "question": "В каком английском дворце заседала Звездная палата?",
+            "answers": ["Вестминстерский дворец"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00033",
+            "category": "RoK",
+            "question": "Какие две страны составляли Иберийскую унию?",
+            "answers": ["Португалия и Испания"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00034",
+            "category": "RoK",
+            "question": "Сколько длится «Базовое расширение армии»?",
+            "answers": ["4ч"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00035",
+            "category": "RoK",
+            "question": "В честь какого праздника назван феномен Эль-Ниньо?",
+            "answers": ["Рождество"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00036",
+            "category": "RoK",
+            "question": "Какой из этих предметов НЕЛЬЗЯ купить у Таинственной торговки?",
+            "answers": ["Страница паспорта"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00037",
+            "category": "RoK",
+            "question": "О влиянии какого вида на почву написал свою последнюю книгу Чарльз Дарвин?",
+            "answers": ["Земляные черви"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00038",
+            "category": "RoK",
+            "question": "Кто из этих командиров фактически правил своим королевством, но не занимал при этом трон?",
+            "answers": ["Карл Мартелл"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00039",
+            "category": "RoK",
+            "question": "Сколько золотых медалей выиграл афроамериканский атлет Джесси Оуэнс на Олимпиаде 1936 года?",
+            "answers": ["4"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00040",
+            "category": "RoK",
+            "question": "Гимн какой страны называется «Марш независимости»?",
+            "answers": ["Турция"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00041",
+            "category": "RoK",
+            "question": "Из какого из этих документов берут начало ценности «американской мечты»?",
+            "answers": ["Декларация независимости"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00042",
+            "category": "RoK",
+            "question": "Как звали богиню любви в скандинавской мифологии?",
+            "answers": ["Фрейя"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00043",
+            "category": "RoK",
+            "question": "Кто автор «Исповеди неполноценного человека»?",
+            "answers": ["Осаму Дадзай"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00044",
+            "category": "RoK",
+            "question": "Зачем викинги делали нос и корму своих драккаров симметричными?",
+            "answers": [
+                "Чтобы можно было быстро плыть в другую сторону",
+                "не разворачиваясь"
+            ],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00045",
+            "category": "RoK",
+            "question": "В какой галерее сейчас выставляется «Мона Лиза»?",
+            "answers": ["Лувр"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00046",
+            "category": "RoK",
+            "question": "Какая цивилизация дает бонус в 5% к урону активными навыками командира?",
+            "answers": ["Османы"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00047",
+            "category": "RoK",
+            "question": "В какое время года ночи короче, а дни длиннее?",
+            "answers": ["Лето"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00048",
+            "category": "RoK",
+            "question": "Какая из этих поэм рассказывает о битве в Ронсевальском ущелье, где бились Карл Великий со своими рыцарями?",
+            "answers": ["Песнь о Роланде"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00049",
+            "category": "RoK",
+            "question": "Кому принадлежал молот Мьёльнир в скандинавской мифологии?",
+            "answers": ["Тор"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00050",
+            "category": "RoK",
+            "question": "Какой философ написал труд Государство?",
+            "answers": ["Платон"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00051",
+            "category": "RoK",
+            "question": "Кто первым вышел в открытый космос?",
+            "answers": ["Юрий Гагарин"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00052",
+            "category": "RoK",
+            "question": "Какую короткопериодическую комету можно регулярно наблюдать невооруженным взглядом с Земли?",
+            "answers": ["Комета Галлея"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00053",
+            "category": "RoK",
+            "question": "В какой стране изобретен микроскоп?",
+            "answers": ["Нидерланды"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00054",
+            "category": "RoK",
+            "question": "Какой активный навык есть у Карла Мартелла?",
+            "answers": ["Бессмертный щит"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00055",
+            "category": "RoK",
+            "question": "В каком году вышло первое издание книги «Дневник Анны Франк»?",
+            "answers": ["1947"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00056",
+            "category": "RoK",
+            "question": "В какой стране находится Чатал-Хююк?",
+            "answers": ["Турция"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00057",
+            "category": "RoK",
+            "question": "Какое из этих произведений написала Мэри Шелли?",
+            "answers": ["Франкенштейн"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00058",
+            "category": "RoK",
+            "question": "Зачем построили Великую пирамиду в Гизе?",
+            "answers": ["Как гробницу фараона Хеопса"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00059",
+            "category": "RoK",
+            "question": "В каком году прошел первый теннистный турнир «Уимблдон»?",
+            "answers": ["1877"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00060",
+            "category": "RoK",
+            "question": "Первый в мире национальный парк",
+            "answers": ["это… Йеллоустон"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00061",
+            "category": "RoK",
+            "question": "В каком году Эйнштейн опубликовал свои работы в Annus Mirabilis (Чудесные работы) ?",
+            "answers": ["1905"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00062",
+            "category": "RoK",
+            "question": "Какое учение основал китайский философ Лао Цзы?",
+            "answers": ["Даосизм"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00063",
+            "category": "RoK",
+            "question": "Кто первым забрался на вершину Эвереста?",
+            "answers": ["Тенцинг Норгей и Эдмунд Хиллари"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00064",
+            "category": "RoK",
+            "question": "Армии двух каких стран встретились на Эльбе ближе к концу Второй мировой войны?",
+            "answers": ["СССР", "США"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00065",
+            "category": "RoK",
+            "question": "Кто произнес знаменитую речь «У меня есть мечта»?",
+            "answers": ["Мартин Лютер Кинг"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00066",
+            "category": "RoK",
+            "question": "Какая женщина первой выиграла Нобелевскую премию?",
+            "answers": ["Мари Кюри"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00067",
+            "category": "RoK",
+            "question": "Недостаток чего вызывает непереносимость лактозы?",
+            "answers": ["Лактаза"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_import_00068",
+            "category": "RoK",
+            "question": "Два каких португальских города соединяет мост Понти-ди-Дон-Луиш I ?",
+            "answers": ["Порту и Вила-Нова-ди-Гая"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "user_pasted_alliance_quiz"
+            }
+        },
+        {
+            "id": "rok_0001",
+            "category": "RoK",
+            "question": "В греческой мифологии кем приходится Гермес Зевсу?",
+            "answers": ["сын"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0002",
+            "category": "RoK",
+            "question": "У какого командира в Rise of Kingdoms самые густые брови (по вопросу викторины)?",
+            "answers": ["Цао Цао", "Cao Cao"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0003",
+            "category": "RoK",
+            "question": "Какой европеец написал первый известный путевой дневник о Китае (история, культура, искусство)?",
+            "answers": ["Марко Поло", "Marco Polo"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0004",
+            "category": "RoK",
+            "question": "Сколько сторожевых башен (Watchtower) у города/ратуши 25 уровня?",
+            "answers": ["8"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0005",
+            "category": "RoK",
+            "question": "Сколько отдельных заданий включает Экспедиция (Expedition)?",
+            "answers": ["90"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0006",
+            "category": "RoK",
+            "question": "Сколько карт всего показано в руках Таинственного торговца (Mysterious Merchant)?",
+            "answers": ["5"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0007",
+            "category": "RoK",
+            "question": "Какое боевое благословение получают пехотные войска в Champions of Olympia?",
+            "answers": ["Благословение Афины", "The Blessing of Athena"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0008",
+            "category": "RoK",
+            "question": "Из какой страны был архитектор, спроектировавший Музей египетских древностей в Каире (Egyptian Museum)?",
+            "answers": ["Франция"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0009",
+            "category": "RoK",
+            "question": "Какое животное изображено на фоне командира Ричарда I (Richard I)?",
+            "answers": ["собака"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0010",
+            "category": "RoK",
+            "question": "Какой вождь Цероли (Ceroli Chieftain) использует лук как оружие?",
+            "answers": ["Кейра", "Keira"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0011",
+            "category": "RoK",
+            "question": "Какая скульптура была названа Марком Твеном «самым печальным и трогательным камнем» (вопрос викторины)?",
+            "answers": ["Лев Люцерна", "Лев в Люцерне", "Lion of Lucerne"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0012",
+            "category": "RoK",
+            "question": "Какого командира называют «Ревущий варвар»?",
+            "answers": ["Лохар", "Lohar"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0013",
+            "category": "RoK",
+            "question": "Какой цвет краски предпочитали древнеегипетские семьи для стен своих домов (вопрос викторины)?",
+            "answers": ["белый"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0014",
+            "category": "RoK",
+            "question": "В каком году Ричард Львиное Сердце и Саладин подписали перемирие?",
+            "answers": ["1192"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0015",
+            "category": "RoK",
+            "question": "Что НЕ считается одноклеточным организмом (вопрос викторины)?",
+            "answers": ["клещи", "mites"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0016",
+            "category": "RoK",
+            "question": "Как зовут шамана огня у Караку (Karaku's Fire Shaman) в вопросах викторины?",
+            "answers": ["Денко", "Denko"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0017",
+            "category": "RoK",
+            "question": "Какой бафф профессии даёт Алтарь пламени (Flame Altar)?",
+            "answers": ["атака войск +3%", "Troop Attack +3%"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0018",
+            "category": "RoK",
+            "question": "Какой тип войск силён против кавалерии?",
+            "answers": ["пехота", "infantry"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0019",
+            "category": "RoK",
+            "question": "Какое единственное слабое место Ахилла (вопрос викторины)?",
+            "answers": ["пятка", "пятки"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0020",
+            "category": "RoK",
+            "question": "Какое событие 1688 года известно как «Славная революция»?",
+            "answers": ["Славная революция", "Glorious Revolution"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0021",
+            "category": "RoK",
+            "question": "Сколько звёзд изображено на Минамото (вопрос викторины)?",
+            "answers": ["3"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0022",
+            "category": "RoK",
+            "question": "Какой командир НЕ носит меч (вопрос викторины)?",
+            "answers": ["Феодора", "Theodora"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0023",
+            "category": "RoK",
+            "question": "Какое растение изображено на фоне у Цао Цао и Мулан (вопрос викторины)?",
+            "answers": ["бамбук", "bamboo"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0024",
+            "category": "RoK",
+            "question": "Какая из реплик относится к Томоэ Годзэн (вопрос викторины)?",
+            "answers": [
+                "моя сила пугает даже призраков",
+                "My power even scares ghosts"
+            ],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0025",
+            "category": "RoK",
+            "question": "Сколько роз на «Лепестках роз» (Rose Petals) в вопросах викторины?",
+            "answers": ["4"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0026",
+            "category": "RoK",
+            "question": "Сколько изумрудов на Матильде Фландрской (Matilda of Flanders) в вопросах викторины?",
+            "answers": ["4"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0027",
+            "category": "RoK",
+            "question": "Какой командир специализируется на сборе ресурсов (вопрос викторины)?",
+            "answers": ["Клеопатра VII", "Cleopatra VII"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0028",
+            "category": "RoK",
+            "question": "Как получить кредиты альянса (alliance credits) в Rise of Kingdoms?",
+            "answers": [
+                "строить здания альянса",
+                "строительством зданий альянса"
+            ],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0029",
+            "category": "RoK",
+            "question": "Что НЕ является способом получить опыт командира (Commander EXP) (вопрос викторины)?",
+            "answers": [
+                "сражаться с другими игроками",
+                "битвы с другими игроками"
+            ],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0030",
+            "category": "RoK",
+            "question": "Какого цвета кожа у белого медведя (вопрос викторины)?",
+            "answers": ["чёрная", "черная"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0031",
+            "category": "RoK",
+            "question": "Какой тип кристалла находится в подарке альянса 26 уровня (вопрос викторины)?",
+            "answers": ["синий кристалл", "Blue Crystal"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0032",
+            "category": "RoK",
+            "question": "Какой тип войск силён против пехоты?",
+            "answers": ["лучники", "archers"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0033",
+            "category": "RoK",
+            "question": "Какое оружие держит Ричард I (вопрос викторины)?",
+            "answers": ["топор и щит", "axe and shield"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0034",
+            "category": "RoK",
+            "question": "Франция и Германия когда-то входили в какое феодальное королевство (вопрос викторины)?",
+            "answers": ["Франкия", "Francia"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0035",
+            "category": "RoK",
+            "question": "Какой родной язык у Клеопатры VII (вопрос викторины)?",
+            "answers": ["греческий", "Greek"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0036",
+            "category": "RoK",
+            "question": "Какая фаза есть в событии «Могущественный правитель» (Mightiest Governor) (вопрос викторины)?",
+            "answers": [
+                "уничтожение врагов",
+                "Enemy Elim",
+                "Enemy Elimination"
+            ],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        },
+        {
+            "id": "rok_0037",
+            "category": "RoK",
+            "question": "Какого цвета камни инкрустированы на Короне Эль Сида (вопрос викторины)?",
+            "answers": ["красные", "красный"],
+            "aliases": [],
+            "difficulty": 3,
+            "tags": ["rok"],
+            "lang": "ru",
+            "meta": {
+                "source_hint": "Alliance Quiz (public Q&A lists)"
+            }
+        }
+    ]
+}
