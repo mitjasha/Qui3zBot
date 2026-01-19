@@ -91,13 +91,6 @@ async def init_db():
             next_hint_ts INTEGER
         )
         """)
-        for sql in [
-            "ALTER TABLE state ADD COLUMN category TEXT",
-        ]:
-            try:
-                await db.execute(sql)
-            except Exception:
-                pass
         
         await db.execute("INSERT OR IGNORE INTO config(id) VALUES (1)")
         await db.execute("INSERT OR IGNORE INTO state(id) VALUES (1)")
@@ -110,7 +103,8 @@ async def init_db():
             "ALTER TABLE state ADD COLUMN next_hint_ts INTEGER",
             "ALTER TABLE state ADD COLUMN tag TEXT",
             "ALTER TABLE state ADD COLUMN round_total INTEGER",
-            "ALTER TABLE state ADD COLUMN round_current INTEGER"
+            "ALTER TABLE state ADD COLUMN round_current INTEGER",
+            "ALTER TABLE state ADD COLUMN category TEXT",
         ]:
             try:
                 await db.execute(sql)
@@ -240,31 +234,57 @@ async def set_state(**kwargs):
 
 async def get_state():
     async with aiosqlite.connect(DB_PATH) as db:
+        db.row_factory = aiosqlite.Row
         cur = await db.execute("""
-        SELECT active, current_qid, winner_user_id, deadline_ts,
-               tag, round_total, round_current, session_id,
-               hint_level, hint_total, hint_answer, next_hint_ts
-        FROM state WHERE id=1
+            SELECT
+              active,
+              current_qid,
+              winner_user_id,
+              deadline_ts,
+              tag,
+              round_total,
+              round_current,
+              session_id,
+              hint_level,
+              hint_total,
+              hint_answer,
+              next_hint_ts,
+              category
+            FROM state
+            LIMIT 1
         """)
         row = await cur.fetchone()
-        if not row:
-            return {
-                "active": False, "current_qid": None, "winner_user_id": None, "deadline_ts": None,
-                "tag": "all", "round_total": None, "round_current": 0, "session_id": None,
-                "hint_level": 0, "hint_total": 0, "hint_answer": None, "next_hint_ts": None
-            }
+        await cur.close()
+
+    if not row:
         return {
-            "active": bool(row[0]),
-            "current_qid": row[1],
-            "winner_user_id": row[2],
-            "deadline_ts": row[3],
-            "tag": row[4] or "all",
-            "round_total": row[5],
-            "round_current": row[6] or 0,
-            "session_id": row[7],
-            "hint_level": row[8] or 0,
-            "hint_total": row[9] or 0,
-            "hint_answer": row[10],
-            "next_hint_ts": row[11],
-            "category": row[12]
+            "active": 0,
+            "current_qid": None,
+            "winner_user_id": None,
+            "deadline_ts": None,
+            "tag": None,
+            "round_total": 0,
+            "round_current": 0,
+            "session_id": None,
+            "hint_level": 0,
+            "hint_total": 0,
+            "hint_answer": None,
+            "next_hint_ts": None,
+            "category": None,
         }
+
+    return {
+        "active": row["active"],
+        "current_qid": row["current_qid"],
+        "winner_user_id": row["winner_user_id"],
+        "deadline_ts": row["deadline_ts"],
+        "tag": row["tag"],
+        "round_total": row["round_total"],
+        "round_current": row["round_current"],
+        "session_id": row["session_id"],
+        "hint_level": row["hint_level"],
+        "hint_total": row["hint_total"],
+        "hint_answer": row["hint_answer"],
+        "next_hint_ts": row["next_hint_ts"],
+        "category": row["category"],   # <-- безопасно, даже если NULL
+    }
